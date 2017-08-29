@@ -23,8 +23,6 @@ def isMedium(password):
 def isHigh(password):
     return len(password) > 15 and (hasAlpha(password) + hasSpecial(password) + hasNumber(password)) == 3 and password[0].isalpha()
 
-
-
 inputPassword = input('Please enter test password: ')
 if isLow(inputPassword):
     print('You are low, please do...')
