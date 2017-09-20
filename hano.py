@@ -9,4 +9,4 @@ def hanoi(n, x, y, z): #n 有多少个盘子, x柱子， y柱子，z柱子
         hanoi(n-1, y, x, z)#将y上的n-1个盘子移动到z上
 
 n = int(input("请输入汉诺塔的层数："))
-print(hanoi(n, "x","y","z"))
+print(hanoi(n, "x","y","z"))  
