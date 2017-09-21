@@ -1,16 +1,21 @@
+
 '''
-g=list(filter(None, [1,0, False, True]))
-print(g)
+print(list(filter(lambda x : x % 3 == 0, range(100))))
 
 
-def odd(x):
-    return x % 2
+def make_repeat(n):
+    return lambda s: s * n
 
-temp = range(10)
-show = filter(odd, temp)
-print(list(show))
 
-print(list(filter(lambda x : x % 2, range(10))))
+def make_repeat(n):
+    return lambda s: s * n
+
+double = make_repeat(2)
+print(double(8))
+print(double("FishC"))
+'''
+'''
+print(list(filter(lambda x : x % 3==0, range(1, 100))))
 '''
 
-print(list(map(lambda x : x * 2 , range(10))))
+print(list(map(lambda x,y : [x,y],[1,3,5,7,9],[2,4,6,8,10])))

@@ -1,3 +1,4 @@
+
 def count(*param):
     length = len(param)
     for i in range(length):
@@ -17,5 +18,3 @@ def count(*param):
         print( "letters:{0} space:{1} digit: {2} others:{3}" .format(letters, space, digit, others))
 
 print(count("I love you 123"))
-
-

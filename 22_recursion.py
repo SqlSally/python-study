@@ -30,10 +30,9 @@ number = int(input("enter a number:"))
 result = factorial(number)
 print("factorial %d" % (result))
 
-def month(n):
+def diedai(n):
     n1 = 1
     n2 = 1
-
     n3 = 1
 
     if n < 1:

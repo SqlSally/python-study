@@ -1,18 +1,13 @@
 
+
+
 def huiwen(text):
-    for each1 in range(len(text)-1):
-        if text[each1] != text[len(text)-1-each1]:
+    for each1 in range(len(text) - 1):
+        if text[each1] != text[len(text) - 1 - each1]:
             return False
     return True
 
-
 print(huiwen("abbcbba"))
-print(huiwen("abba"))
-print(huiwen("abbrerwerwcbba"))
-print(huiwen("abbcbbasdrwer"))
-
-
-
 
 def huiwen(text):
     a = list(text)
