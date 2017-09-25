@@ -30,7 +30,7 @@ list2.append(5)
 list2.append(7)
 list2.append(10)
 print(list2)
-'''
+
 #多态:不同对象对同一方法相应不同方法
 class A:
     def fun(self):
@@ -44,3 +44,15 @@ a = A()
 b = B()
 print(a.fun())
 print(b.fun())
+
+
+class Ball:
+    def __init__(self, name):
+        self.name = name
+    def kick(self):
+        print("%s i love you" %self.name )
+
+a = Ball("Sally")
+a.kick()
+
+'''
