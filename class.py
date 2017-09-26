@@ -56,3 +56,13 @@ a = Ball("Sally")
 a.kick()
 
 '''
+class Ball:
+    def set_name(self, name):
+        self.name = name
+    def kick(self):
+        print("%s i love you" %self.name )
+
+a = Ball()
+a.set_name("A")
+print(a.kick())
+
