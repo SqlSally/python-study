@@ -1,11 +1,4 @@
-#-----------------
-from main import LinkedList
+brand = ["a", "b", "c", "d"]
+slogan = ["everything is possible", "just do it", "haha", " i am d"]
 
-list = LinkedList()
-list.add('R')
-list.add('u')
-list.add('g')
-list.add('a')
-list.add('l')
-
-list.print()
+print("my slogan is ", slogan[brand.index("a")])

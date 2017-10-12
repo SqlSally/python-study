@@ -75,3 +75,4 @@ class C(Base1, Base2):
 c = C()
 print(c.foo1())
 print(c.foo2())
+
