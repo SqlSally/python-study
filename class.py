@@ -76,6 +76,8 @@ print(a.kick())
 class Person:
     name = "xiaojiayu"
 
+
+
 p = Person()
 print(p.name)
 
