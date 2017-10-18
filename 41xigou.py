@@ -1,3 +1,5 @@
+
+
 '''
 
 class CapStr(str):
@@ -8,7 +10,7 @@ class CapStr(str):
 
 a = CapStr("I love FishC.com!")
 print(a)
-'''
+
 class C:
     def __init__(self):
         print("我被init调用")
@@ -19,7 +21,7 @@ class C:
 c1 = C()
 c2 = c1
 del c2
-
+'''
 
 
 

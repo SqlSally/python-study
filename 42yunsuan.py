@@ -1,5 +1,6 @@
 
 
+
 class New_int(int):
     def __add__(self, other):
         return int.__sub__(self, other)
@@ -11,5 +12,8 @@ class New_int(int):
 a = New_int(1)
 b = New_int(2)
 
-print(a.__add__(2))
+print(a.__add__(3))
 print(b.__sub__(3))
+
+print(a + b)
+print(a - b)
