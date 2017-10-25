@@ -1,7 +1,7 @@
 #第 0001 题：做为 Apple Store App 独立开发者，你要搞限时促销，为你的应用生成激活码（或者优惠券），
 # 使用 Python 如何生成 200 个激活码（或者优惠券）？
-'''
-from random import Random
+
+from random import Random   #this is test for vim
 
 def codeGenerator(number, codeLength = 10):
 #    print('**** Code Generator ****')
@@ -20,7 +20,7 @@ def codeGenerator(number, codeLength = 10):
             codeFile.write(str+'\n')
 
 print(codeGenerator(200))
-'''
+
 
 from random import Random
 
