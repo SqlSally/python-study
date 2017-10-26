@@ -1,4 +1,4 @@
-'''
+
 def triangle(n):
     for i in range (n):
         for j in range(i+1):
@@ -26,7 +26,7 @@ def triangle(n):
 
 print(triangle(10))
 
-'''
+
 def triangle(n):
     for i in range (n):
         print(" " * i , end="")
